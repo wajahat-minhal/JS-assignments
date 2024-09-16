@@ -63,10 +63,20 @@
 
 
 
-// Write a program to check whether the given input number is               switch case
+// Write a program to check whether the given input number is               switch case converted into ifelse
 // divisible by 3 or not by using Switch Case statements. Show a 
 // message “Number is not divisible by 3” or “Number is divisible 
 // by 3”
+
+// var input = +prompt("enter a number");
+// var dividend = 3;
+
+// if (input%dividend == 0){
+//     console.log("Number is Divisible by 3")
+
+// } else{
+//     console.log("Number is Not Divisible by 3")
+// }
 
 
 
@@ -95,10 +105,34 @@
 
 
 
-// Write a program to create a calculator for +, -, *, /, % using          switch case
+// Write a program to create a calculator for +, -, *, /, % using          switch case converted into ifelse
 // switch case statements. (number1, number2 and operator will 
 // be input)
 
+
+
+// var num1 = +prompt("enter number 1");
+// var num2 = +prompt("enter number 2");
+// var option = prompt("+, -, *, /, % ?");
+
+// if(option  == "+"){
+//     console.log("The sum is ", num1 + num2)
+
+// } else if(option  == "-"){
+//     console.log("The subtraction is ", num1 - num2)
+
+// } else if(option  == "*"){
+//     console.log("The multiplication is ", num1 * num2)
+
+// } else if(option  == "/"){
+//     console.log("The division is ", num1 / num2)
+
+// } else if(option  == "%"){
+//     console.log("The remainder is ", num1 % num2)
+
+// } else {
+//     console.log("invalid operation")
+// }
 
 
 
