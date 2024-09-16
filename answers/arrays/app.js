@@ -49,4 +49,51 @@
 
 
 // var education = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"]
+// var deg = document.querySelector("#degree");
+//  for(var i=0; i<education.length; i++){
+//     deg.innerHTML += education[i]
+//     deg.innerHTML += "<br/>"
+//  }
+
+
+
+// Declare and initialize an empty array to store top movies of             answer of Q-9
+// 2015. Add movies one by one in an array. Display the elements 
+// & length of array in your browser. (Use array’s length method)
+
+
+// var movies = ["1)Avengers", "2)Spectre", "3)Jurassic world", "4)Inside Out"]
+// var movie = document.querySelector("#movies");
+// var length = document.querySelector("#len")
+//  for(var i=0; i<movies.length; i++){
+//     movie.innerHTML += movies[i]
+//     movie.innerHTML += "<br/>"  
+//  }
+//  length.innerHTML = "length of the array is: " + movies.length;
+
+
+// Declare and Initialize an array with your favorite cars. Show                answer of Q-10
+// a. First index of the array
+// b. Car at first index of the array
+// c. Last index of the array
+// d. Car at last index of the array
+
+
+// var cars = ["Audi", "BMW", "Mercedes", "Bugati", "Lamborghini"]
+
+// var list = document.querySelector("#car");
+// var first_index = document.querySelector("#first_ind");
+// var car_first_index = document.querySelector("#first_car");
+// var last_index = document.querySelector("#last_ind");
+// var car_last_index = document.querySelector("#last_car");
+
+// for (var i=0 ; i<cars.length ; i++){
+//     list.innerHTML += cars[i]
+//     list.innerHTML += " "
+// }
+
+// first_index.innerHTML = "first index of the array: " + cars.indexOf("Audi")
+// car_first_index.innerHTML = "car at first index of the array: " + cars.splice(0, 1)
+// last_index.innerHTML = "last index of the array: " + cars.indexOf("Lamborghini")
+// car_last_index.innerHTML = "car at last index of the array: " + cars.splice(-1, 1)
 
