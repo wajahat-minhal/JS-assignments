@@ -97,3 +97,20 @@
 // last_index.innerHTML = "last index of the array: " + cars.indexOf("Lamborghini")
 // car_last_index.innerHTML = "car at last index of the array: " + cars.splice(-1, 1)
 
+
+// Write a program to store 3 student names in an array. Take               answer 0f Q-11
+// another array to store score of these three students. Assume 
+// that total marks are 500 for each student, display the scores & 
+// percentages of students like:
+
+// var student_1 = document.querySelector("#student_1");
+// var student_2 = document.querySelector("#student_2");
+// var student_3 = document.querySelector("#student_3");
+
+// var names = ["Wajahat Minhal", "Saad Ali", "Wasif Khan"]
+// var score = [330, 370, 400]
+// var total_marks = 500;
+
+// student_1.innerHTML = "Score of Wajahat Minhal is: " + score[0] + ". Percentage: " + score[0] / total_marks *100
+// student_2.innerHTML = "Score of Saad Ali is: " + score[1] + ". Percentage: " + score[1] / total_marks *100
+// student_3.innerHTML = "Score of Wasif Khan is: " + score[2] + ". Percentage: " + score[2] / total_marks *100
