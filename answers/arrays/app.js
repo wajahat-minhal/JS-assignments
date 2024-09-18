@@ -114,3 +114,153 @@
 // student_1.innerHTML = "Score of Wajahat Minhal is: " + score[0] + ". Percentage: " + score[0] / total_marks *100
 // student_2.innerHTML = "Score of Saad Ali is: " + score[1] + ". Percentage: " + score[1] / total_marks *100
 // student_3.innerHTML = "Score of Wasif Khan is: " + score[2] + ". Percentage: " + score[2] / total_marks *100
+
+
+// Initialize an array with color names. Display the array                  answer 0f Q-12
+// elements in your browser.
+
+
+// var colours = ["Red", "Blue", "Purple", "Green"]
+// var color = document.querySelector("#color");
+// color.innerHTML = colours;
+
+// a. Ask the user what color he/she wants to add to the 
+// beginning & add that color to the beginning of the array. 
+// Display the updated array in your browser.
+
+
+// b. Ask the user what color he/she wants to add to the end & 
+// add that color to the end of the array. Display the updated 
+// array in your browser.
+// c. Add two more color to the beginning of the array. Display 
+// the updated array in your browser.
+// d. Delete the first color in the array. Display the updated 
+// array in your browser.
+// e. Delete the last color in the array. Display the updated 
+// array in your browser.
+// f. Ask the user at which index he/she wants to add a color & 
+// color name. Then add the color to desired position/index. 
+// . Display the updated array in your browser.
+// g. Ask the user at which index he/she wants to delete 
+// color(s) & how many colors he/she wants to delete. Then 
+// remove the same number of color(s) from user-defined
+// position/index. . Display the updated array in your 
+// browser.
+
+
+
+
+
+// Write a program to store student scores in an array & sort               answer 0f Q-13
+// the array in ascending order using Array’s sort method.
+
+
+// var students_score = [320, 230, 480, 120]
+// console.log(students_score.sort())
+
+
+// Write a program to sort the below mentioned array:                       answer 0f Q-14
+// var fruits = [“strawberry”, “apple”, “orange”, “banana”];
+
+// var list1 = document.querySelector("#unorder");
+// var list2 = document.querySelector("#ordered");
+// var fruits = ["strawberry", "apple", "orange", "banana"];
+// list1.innerHTML = fruits
+// list2.innerHTML = fruits.sort()
+
+
+// Write a program to initialize an array with city names. Copy             answer 0f Q-15
+// 3 array elements from cities array to selectedCities array. 
+
+
+// var cities = ["Karachi", "Lahore", "Islamabad", "Peshawar", "Quetta"]
+// var city = document.querySelector("#city");
+// var selCity = document.querySelector("#sel_city");
+
+// city.innerHTML = cities;
+// selCity.innerHTML = cities.slice(2,4)
+
+
+// Write a program to create a single string from the below                    answer 0f Q-16
+// mentioned array:
+// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)
+
+
+// var arr = ["This", "is", "my", "cat"];
+// var array = document.querySelector("#array");
+// var string = document.querySelector("#string");
+
+// array.innerHTML = arr;
+// string.innerHTML = arr.join(" ");
+
+
+// Create a new array. Store values one by one in such a way                    answer 0f Q-17
+// that you can access the values in the order in which they were 
+// stored. (FIFO-First In First Out)
+
+// Create an empty array
+// var fifoArray = [];
+
+// Add elements one by one (enqueue)
+// fifoArray.push("Keyboard");
+// fifoArray.push("Mouse");
+// fifoArray.push("Monitor");
+// fifoArray.push("Printer");
+
+// console.log("FIFO Array:", fifoArray);
+
+// Access values in the order they were added (dequeue)
+// console.log("First Element:", fifoArray.shift()); // 1
+// console.log("Second Element:", fifoArray.shift()); // 2
+// console.log("Third Element:", fifoArray.shift()); // 3
+// console.log("Third Element:", fifoArray.shift()); // 4
+
+
+// Create a new array. Store values one by one in such a way                    answer 0f Q-18
+// that you can access the values in reverse order. (Last In-First 
+// Out)
+
+
+// var fifoArray = [];
+
+// Add elements one by one (enqueue)
+// fifoArray.push("Keyboard");
+// fifoArray.push("Mouse");
+// fifoArray.push("Monitor");
+// fifoArray.push("Printer");
+
+// // console.log("FIFO Array:", fifoArray);
+
+// // Access values in the order they were added (dequeue)
+// console.log("First Element:", fifoArray.pop()); // 1
+// console.log("Second Element:", fifoArray.pop()); // 2
+// console.log("Third Element:", fifoArray.pop()); // 3
+// console.log("Third Element:", fifoArray.pop()); // 4
+
+
+
+// Write a program to store phone manufacturers (Apple,                     Question 0f Q-19
+// Samsung, Motorola, Nokia, Sony & Haier) in an array. Display 
+// the following dropdown/select menu in your browser using 
+// document.write() method:
+
+
+// Declare and initialize an empty multidimensional array.                  answer 0f Q-20
+// (Array of arrays)
+
+// var multiArr = [[],[]]
+// console.log(multiArr)
+
+
+// Declare and initialize a multidimensional array representing             answer 0f Q-21
+// the following matrix:
+
+// var multiArr = [
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ]
+// console.log(multiArr[0])
+// console.log(multiArr[1])
+// console.log(multiArr[2])
