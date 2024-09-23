@@ -143,22 +143,73 @@
 // Write a program to identify the largest number in the given                  answer of question-9
 // array.
 
-var array = [24, 53, 78, 91, 12]
-var arrayItems = document.querySelector("#array")
-var largestItem = document.querySelector("#largest")
+// var array = [24, 53, 78, 91, 12]
+// var arrayItems = document.querySelector("#array")
+// var largestItem = document.querySelector("#largest")
+// var largest = 0;
+// arrayItems.innerHTML = `Array items: ${array}`
 
-for(var i=0; i<array.length; i++){
-    arrayItems.innerHTML = check()
-}
+// for(var i=0; i<array.length; i++){
+//     if(array[i]>largest){
+//         largest = array[i];
+//         largestItem.innerHTML = `largest item is: ${largest}`
 
-function check(){
-    if(array[i] <= array[i+1]){
-        array[i++]
-        check()
-    } else if(array[i] >= array[i+1]){
-        array[i++]
-        check()
-    } else{
+//     }
+// }
 
-    }
-}
+// Write a program to identify the smallest number in the given                 answer of question-10
+// array.
+
+// var array = [24, 53, 78, 91, 12]
+// var arrayItems = document.querySelector("#array")
+// var smallestItem = document.querySelector("#smallest")
+// var smallest = array[0];
+// arrayItems.innerHTML = `Array items: ${array}`
+
+// for(var i=0; i<array.length; i++){
+//     if(array[i]<smallest){
+//         smallest = array[i];
+//         smallestItem.innerHTML = `smallest item is: ${smallest}`
+
+//     }
+// }
+
+
+// Write a program to identify the largest & the smallest                       answer of question-11
+// number in the given array.
+// A = [24, 53, 78, 91, 12]
+
+
+// var array = [24, 53, 78, 91, 12]
+// var arrayItems = document.querySelector("#array")
+// var smallestItem = document.querySelector("#smallest")
+// var smallest = array[0];
+// arrayItems.innerHTML = `Array items: ${array}`
+
+// for(var i=0; i<array.length; i++){
+//     if(array[i]<smallest){
+//         smallest = array[i];
+//         smallestItem.innerHTML = `smallest item is: ${smallest}`
+
+//     }
+// }
+
+// var largestItem = document.querySelector("#largest")
+// var largest = 0;
+
+// for(var i=0; i<array.length; i++){
+//     if(array[i]>largest){
+//         largest = array[i];
+//         largestItem.innerHTML = `largest item is: ${largest}`
+
+//     }
+// }
+
+
+// Write a program to print multiples of 5 ranging 1 to 100             answer of question-12
+
+// var printSeries = document.querySelector("#print")
+// var count = 5;
+// for(var i=1; i<=20; i++){
+//     printSeries.innerHTML += `${count * i},`
+// }
